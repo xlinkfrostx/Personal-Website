@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xlinkfrostx/Personal-Website.git"
+    "url": "git+https://github.com/xlinkfrostx/xlinkfrostx.github.io"
   },
   "author": "Ashir Imran",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xlinkfrostx/Personal-Website/issues"
+    "url": "https://github.com/xlinkfrostx/xlinkfrostx.github.io/issues"
   },
-  "homepage": "https://github.com/xlinkfrostx/Personal-Website#readme",
+  "homepage": "https://github.com/xlinkfrostx/xlinkfrostx.github.io#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
