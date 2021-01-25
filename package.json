@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/xlinkfrostx/xlinkfrostx.github.io#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "webcomponents.js": "^0.7.24"
   }
 }
