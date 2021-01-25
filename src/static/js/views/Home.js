@@ -8,10 +8,13 @@ export default class extends AbstractView {
 
     async getHTML() {
         return `
-            <h1>Hello, my name is Ashir Imran.</h1>
-            <p>
-                Website is still under construction.
-            </p>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h3>Hello, my name is</h3>
+                    <h1>Ashir Imran</h1>
+                    <p>Programmer and music producer</p>
+                </div>
+            </div> 
         `;
     }
 }
