@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal website of Ashir Imran for portfolio and blog purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlinkfrostx/Personal-Website.git"
+  },
+  "author": "Ashir Imran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlinkfrostx/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/xlinkfrostx/Personal-Website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
