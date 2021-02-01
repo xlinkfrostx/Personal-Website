@@ -20,7 +20,7 @@ h3 {
 
 .hero-image {
     padding: 25px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url("img/hero-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url("./img/hero-image.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size:cover;
