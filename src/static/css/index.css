@@ -1,47 +1,64 @@
 body, html {
-
     margin: 0 0 0 var(--nav-width);
     font-family: 'Trebuchet MS', sans-serif;
-    font-size: 18px;
     text-align: center;
+    -webkit-text-size-adjust:none;
+    color: white;
+    background: black;
 }
 
 h1 {
-    color: #c98989;
-    font-size: 100px;
+    color: hsl(0, 37%, 66%);
+    font-size: 8vw;
+    max-width: auto;
+}
+
+h3 {
+    color: white;
+    font-size: 2vw;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(49, 13, 46, 0.5)), url("img/hero-image.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url("img/hero-image.jpg");
     background-size: cover;
-    width: 100%;
-    overflow: hidden;
-    min-height: 500px;
-    max-height: 1500px;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-position: center 45px;
+    position: relative;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text {
+    position: relative;
+    line-height: 0%;
     text-align: center;
-    top: 50%;
-    transform: translate(0%, 80%);
-    color: white;
-    line-height: 80%;
+    overflow: auto;
+    vertical-align: middle;
+}
+
+@media (max-width: 26.25em) {
+    .hero-text {
+        transform: translate(0%, 38%);
+    }
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
     background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
   
 li {
