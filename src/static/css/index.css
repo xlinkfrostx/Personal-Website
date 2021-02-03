@@ -1,10 +1,9 @@
 body, html {
     margin: 0 0 0 var(--nav-width);
     font-family: 'Trebuchet MS', sans-serif;
-    text-align: center;
-    -webkit-text-size-adjust:none;
+    
     color: white;
-    background: black;
+    background: rgb(26, 26, 26);
 }
 
 h1 {
@@ -13,38 +12,62 @@ h1 {
     max-width: auto;
 }
 
+h2 {
+    text-align: center;
+    -webkit-text-size-adjust:none;
+}
+
 h3 {
     color: white;
     font-size: 2vw;
 }
 
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    font-size: 1em;
+    justify-content: center;
+    display: flex;
+}
+
 .hero-image {
-    padding: 25px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url("./img/hero-image.jpg");
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-position: center 45px;
+    background-position: center;
     position: relative;
     display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+    padding-bottom: 25px;
 }
 
 .hero-text {
     position: relative;
     line-height: 0%;
     text-align: center;
-    overflow: auto;
-    vertical-align: middle;
+    vertical-align: middle; 
 }
 
 @media (max-width: 26.25em) {
     .hero-text {
-        transform: translate(0%, 38%);
+        transform: translate(0%, 20%);
     }
+
+    p {
+        font-size: 0.75em;
+    }
+}
+
+hr.solid {
+    width: 50vw;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.introP {
+    padding-bottom: 10px;
 }
 
 ul {
@@ -52,7 +75,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: auto;
-    background-color: #333;
+    background-color: rgb(37, 37, 37);
     position: fixed;
     top: 0;
     width: 100%;
@@ -69,7 +92,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
 } 
 

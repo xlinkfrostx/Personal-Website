@@ -3,17 +3,17 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor() {
         super();
-        this.setTitle("Projects");
+        this.setTitle("Music Talk");
     }
 
     async getHTML() {
         return `
             <div>
                 <h2>
-                    Under construction...
+                    Under construction... 
                 </h2>
 
-                <p> (Prepare for my like one working project!) </p>
+                <p> (Prepare for lots of brick wall talking!) </p>
             </div>
         `;
     }

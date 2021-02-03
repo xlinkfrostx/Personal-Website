@@ -1,5 +1,6 @@
 import Home from "./views/Home.js";
 import Projects from "./views/Projects.js";
+import MusicTalk from "./views/Music Talk.js";
 
 const navTo = url => {
     history.pushState(null, null, url);
@@ -9,7 +10,8 @@ const navTo = url => {
 const router = async () => {
     const routes = [
         {path: "/", view: Home},
-        {path: "/projects", view: Projects}
+        {path: "/projects", view: Projects},
+        {path: "/music-talk", view: MusicTalk}
     ];
 
     const matches = routes.map(route => {
