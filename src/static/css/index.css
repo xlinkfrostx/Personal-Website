@@ -36,7 +36,7 @@ h3 {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url("img/hero-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url("src/static/css/img/hero-image.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
