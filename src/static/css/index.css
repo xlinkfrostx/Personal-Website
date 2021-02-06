@@ -1,7 +1,6 @@
 body, html {
     margin: 0 0 0 var(--nav-width);
-    font-family: 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Avenir', sans-serif; 
     color: white;
     background: rgb(26, 26, 26);
 }
@@ -22,13 +21,18 @@ h3 {
     font-size: 2vw;
 }
 
-p {
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: justify;
-    font-size: 1em;
-    justify-content: center;
-    display: flex;
+.technologies {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.technologies h4{
+    text-align: center;
+    color: hsl(0, 37%, 66%);
+    display: inline;
+    line-height: 2vh;
 }
 
 .hero-image {
@@ -42,6 +46,7 @@ p {
     align-items: center;
     padding: 50px;
     padding-bottom: 25px;
+    border-bottom: 3px solid rgb(71, 71, 71);
 }
 
 .hero-text {
@@ -55,19 +60,67 @@ p {
     .hero-text {
         transform: translate(0%, 20%);
     }
-
-    p {
-        font-size: 0.75em;
-    }
 }
 
 hr.solid {
     width: 50vw;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(71, 71, 71);
 }
 
-.introP {
-    padding-bottom: 10px;
+.ppic {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    border: 3px solid white;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.img-par {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.img-par img {
+    margin-right: 25px;
+    float: left;
+}
+
+.img-par span {
+    margin-left: 50px;
+    display: block;
+}
+
+.img-par h2 {
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    margin-top: auto;
+    margin-left: auto;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.text {
+    background-color: #5050503d;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }
 
 ul {
