@@ -13,7 +13,7 @@ export default class extends AbstractView {
 
                 <div class="img-par">     
                     <div class="container">
-                        <img src="./css/img/profile-pic.png" class="ppic" alt="Profile Pic"> 
+                        <img src="img/profile-pic.png" class="ppic" alt="Profile Pic"> 
                         <div class="middle">
                             <div class="text">Avatar by AzureChuck</div>
                         </div>
