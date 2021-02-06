@@ -58,7 +58,12 @@ h3 {
 
 @media (max-width: 26.25em) {
     .hero-text {
-        transform: translate(0%, 20%);
+        transform: translate(0%, 75%);
+    }
+
+    .img-par {
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 
